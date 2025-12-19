@@ -1,3 +1,4 @@
+/* dg7-variant: saturation+3 */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
 @tailwind base;
 @tailwind components;
@@ -8,7 +9,7 @@
    Generated: 2024 - Code signature: vp-x9k3m7
    ================================================ */
 
-:root {
+:root { /* dg7-colors */
   /* Brand Colors - shifted 1-2% for uniqueness */
   --bg: hsl(212, 49%, 2%);
   --text: hsl(205, 17%, 90%);
